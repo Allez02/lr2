@@ -1,0 +1,55 @@
+.div{
+ border: 1px solid #F04444;
+ margin: 5px;
+ height: 350px;
+}
+
+.shapka{
+ list-style-type:none;
+ padding: 10px 10px 10px 0px;
+ background-color:#FF7F50;
+}
+
+li{
+ display: inline;
+}
+
+.shapka a{
+ padding: 11px;
+ text-decoration: none;
+ color:white;
+}
+
+h1, h2{
+    text-align: center;
+    color: #530A0A;
+}
+
+p{
+ text-align: justify;
+ margin: 5px;
+ color: #F04444;
+ text-indent: 50px;
+}
+
+.shapka a:hover{
+ background: white;
+ color: #EF8720;
+}
+
+.shapka .active{
+ background: white;
+ color: #EF8702;
+}
+
+#bottom{
+ margin-top: 10px;
+ text-align: center;
+}
+
+#bottom a{
+ background: white;
+ color: #7E5119;
+ text-decoration: none;
+ padding-right: 10px;
+}

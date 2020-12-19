@@ -1,0 +1,42 @@
+body {
+ background:#FFF8DC;
+}
+button {
+	background-color: yellow;
+	
+}
+.block {
+	font-size: 24px;
+}
+tr,td {
+	border: 1px solid black;
+}
+input[type=checkbox]{
+  display:none;
+}
+input[type=checkbox]:checked + label{
+  background-color: green;
+  color: blue;
+}
+input[type=checkbox]:checked + label:after{
+  background-color: blue;
+}
+label{
+  cursor:pointer;
+  display:inline-block;
+  background-color:yellow;
+ width:200px;
+  padding:5px 20px 5px 5px;
+  position:relative;
+}
+label:after{
+  content:'';
+  display:block;
+  position:absolute;
+  width:10px;
+  height:10px;
+  border:1px solid blue;
+  top:8px;
+  right:5px;
+  background-color:#fff;
+}

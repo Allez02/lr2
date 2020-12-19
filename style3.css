@@ -1,0 +1,97 @@
+.pole1{
+    width: 300px;
+    height: 300px;
+}
+#red1{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #DB5355;
+	float: left;
+}
+#blue1{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #069CC9;
+    float: left;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+#green1{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #119E44;
+    float: left;
+    margin-top: 150px;
+    margin-left: 12px;
+}
+
+.pole2{
+	width: 300px;
+	height: 100px;
+}
+#red2{
+	width: 60px;
+    height: 60px;
+    border: 1px solid #DB5355;
+	float: left;
+}
+#blue2{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #069CC9;
+    float: left;
+    margin-left: 20px;
+}
+#green2{
+	width: 60px;
+    height: 60px;
+    border: 1px solid #119E44;
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+.pole3{
+    width: 150px;
+    height: 150px;
+    border-width: 1px;
+    border-color: #DB5355;
+}
+
+#red3{
+    width: 60px;
+    height: 60px;
+    background: #DB5355;
+    float: left;
+    border-color: #DB5355;
+}
+
+#blue3{
+    width: 60px;
+    height: 60px;
+    background: #069CC9;
+    float: left;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: absolute;
+}
+
+#green3{
+    width: 60px;
+    height: 60px;
+    background: #119E44;
+    float: left;
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    z-index: 2;
+}
